@@ -1,3 +1,6 @@
+#git push -u origin main
+
+
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -22,10 +25,11 @@ async def YaAdded_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def done_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Congrats your answer is 5 🎉🍾")
     
-async def hiking_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("hiking is been started")
-    
+
 async def emozi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_sticker("CAACAgIAAxkBAAEB0cJkW4FgyrOn-J6tWr5fvN20PthLCgACrQADVp29Cpi1kJ-NOqRaNAQ")
+    
+async def green_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_sticker("CAACAgIAAxkBAAEB0cJkW4FgyrOn-J6tWr5fvN20PthLCgACrQADVp29Cpi1kJ-NOqRaNAQ")
     
 async def drawcard_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
