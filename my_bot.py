@@ -24,12 +24,8 @@ async def YaAdded_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Now divide it with 2.\n Then Subract the original number from your answer. \n if you are done with it ....click /done")
 async def done_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Congrats your answer is 5 🎉🍾")
-    
 
 async def emozi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_sticker("CAACAgIAAxkBAAEB0cJkW4FgyrOn-J6tWr5fvN20PthLCgACrQADVp29Cpi1kJ-NOqRaNAQ")
-    
-async def green_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_sticker("CAACAgIAAxkBAAEB0cJkW4FgyrOn-J6tWr5fvN20PthLCgACrQADVp29Cpi1kJ-NOqRaNAQ")
     
 async def drawcard_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
