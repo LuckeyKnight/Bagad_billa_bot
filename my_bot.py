@@ -1,3 +1,4 @@
+#git commit -am "commit 2"
 #git push -u origin main
 
 
@@ -117,7 +118,6 @@ if __name__ == '__main__':
     application.add_handler(CommandHandler('start', starting_command))
     application.add_handler(CommandHandler('help', help_command))
     application.add_handler(CommandHandler('trick', trick_command))
-    application.add_handler(CommandHandler('hiking', hiking_command))
     application.add_handler(CommandHandler('guessed', guessed_command))
     application.add_handler(CommandHandler('added', added_command))
     application.add_handler(CommandHandler('YaAdded', YaAdded_command))
